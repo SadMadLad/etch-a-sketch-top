@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    border: black solid;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-element {
+    height: 10px;
+    width: 10px;
+    /*border: royalblue solid;*/
+    background-color: white;
+}
+
+.color-grid-element {
+    background-color: blueviolet;
+    /*border: black dotted;*/
+}
+
